@@ -132,7 +132,7 @@ export default function TerminalPage() {
 }
 
 async function handleCommand(term, cmd) {
-    const API = '/api/v2';
+    const API = 'https://try-flask-alpha.vercel.app/api/v2';
 
     switch (cmd.toLowerCase()) {
         case 'help':
